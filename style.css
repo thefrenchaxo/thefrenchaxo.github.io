@@ -1,0 +1,118 @@
+/*-----FONT----- */
+
+@font-face {
+    font-family: 'CreatoDisplay';
+    src: url('font/CreatoDisplay/CreatoDisplay-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CreatoDisplay';
+    src: url('font/CreatoDisplay/CreatoDisplay-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*-----FONT----- */
+
+body {
+    background-image: url(image/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profile-container {
+    background-color: rgba(0, 0, 0, 0.542);
+    border-radius: 25px;
+    margin: 100px auto;
+    padding: 25px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+}
+
+#username {
+    font-family: 'CreatoDisplay', sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+}
+
+#status {
+    font-family: 'CreatoDisplay', sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/*-----IMAGE-LINK-----*/
+.img-link-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0);
+}
+.img-link-a:link, .img-link-a:visited, .img-link-a:hover, .img-link-a:active {
+    text-decoration: none;
+}
+/*-----IMAGE-LINK-----*/
+
+/*-----IMAGE-TEXT-LINK-----*/
+
+.img-text-link-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #5865f2;
+    border-radius: 10px;
+    margin: 0 25px 15px 25px;
+}
+
+.img-text-link-img {
+    width: 50px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+.img-text-link-text {
+    font-family: 'CreatoDisplay', sans-serif;
+    color: white;
+}
+
+.img-text-link-book {
+    width: 30px;
+    width: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+/*-----IMAGE-TEXT-LINK-----*/
+
+/*-----BIO-----*/
+
+#bio {
+    font-family: 'CreatoDisplay', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 10px 25px 10px 25px;
+    
+}
+
+/*-----BIO-----*/
+
