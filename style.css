@@ -101,9 +101,9 @@ body {
 }
 
 #copy-message {
-    display: none; /* Caché par défaut */
+    display: none;
     color: white;
-    background-color: #5865f2; /* Vert */
+    background-color: #5865f2;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
