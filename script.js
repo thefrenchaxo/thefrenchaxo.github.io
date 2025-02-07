@@ -1,17 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
     const donationButton = document.getElementById("donation-button");
     const copyMessage = document.getElementById("copy-message");
-    const donationAddress = "0x1234567890ABCDEF1234567890ABCDEF12345678"; // Remplace par ton adresse Ethereum
+    const donationAddress = "0xD719CfeA3738421795a6FBEA5Dbaa7fA7683648f";
 
     donationButton.addEventListener("click", (event) => {
-        event.preventDefault(); // Empêche l'ouverture du lien
+        event.preventDefault();
         navigator.clipboard.writeText(donationAddress)
             .then(() => {
-                copyMessage.style.display = "block"; // Affiche le message
-                copyMessage.classList.add("show"); // Ajoute la classe pour l'animation
+                copyMessage.style.display = "block";
+                copyMessage.classList.add("show");
                 setTimeout(() => {
                     copyMessage.style.display = "none"; 
-                    copyMessage.classList.remove("show"); // Retire la classe après 3s
+                    copyMessage.classList.remove("show");
                 }, 3000);
             })
             .catch(err => {
